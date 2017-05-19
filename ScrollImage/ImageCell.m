@@ -13,6 +13,8 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     [self.imageView setFrame:self.contentView.bounds];
+    self.backgroundColor = [UIColor clearColor];
+    self.imageView.backgroundColor = [UIColor clearColor];
 }
 
 - (UIImageView *)imageView {
