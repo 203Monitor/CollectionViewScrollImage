@@ -1,0 +1,2 @@
+# CollectionViewScrollImage
+用CollectionView实现的图片轮播控件
