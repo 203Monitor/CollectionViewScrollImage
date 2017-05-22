@@ -222,7 +222,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     YuriScrollImage *scroll = [[YuriScrollImage alloc] initWithFrame:CGRectMake(0, 20, kWidth, kHeight * 0.4)];
-    [scroll setImages:@[@"p1.png",@"p2.png",@"p3.png",@"p4.png",@"p5.png"]];
+    [scroll setImages:@[@"pp1.png",@"pp2.png",@"pp3.png",@"pp4.png",@"pp5.png"]];
+//    [scroll setImages:@[@"num.jpeg",@"num.jpeg"]];
     [scroll setTimeInterval:2];
     [self.view addSubview:scroll];
     

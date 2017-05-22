@@ -196,8 +196,9 @@
     }else if (index == self.datas.count - 1) {
         index = 1;
     }
-    NSString *imageName = [NSString stringWithFormat:@"%ld.png",index];
-    [cell.imageView setImage:[UIImage imageNamed:imageName]];
+//    NSString *imageName = [NSString stringWithFormat:@"%ld.png",index];
+//    [cell.imageView setImage:[UIImage imageNamed:imageName]];
+    [cell.imageView setImage:[UIImage imageNamed:[self.datas objectAtIndex:indexPath.item]]];
     
     return cell;
 }
