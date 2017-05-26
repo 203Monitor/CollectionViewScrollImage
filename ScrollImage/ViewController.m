@@ -207,6 +207,7 @@
 
 #import "ViewController.h"
 #import "YuriScrollImage.h"
+#import "Util.h"
 
 #define kWidth ([UIScreen mainScreen].bounds.size.width)
 #define kHeight ([UIScreen mainScreen].bounds.size.height)
@@ -220,6 +221,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    
+    UIColor * mycolor = CorlorWithString(@"#54e1b7");
+    
     
     YuriScrollImage *scroll = [[YuriScrollImage alloc] initWithFrame:CGRectMake(0, 20, kWidth, kHeight * 0.4)];
     [scroll setImages:@[@"pp1.png",@"pp2.png",@"pp3.png",@"pp4.png",@"pp5.png"]];

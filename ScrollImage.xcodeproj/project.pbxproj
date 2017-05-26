@@ -19,6 +19,7 @@
 		0E2BB2DD1ECEC58D0036B094 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2BB2D91ECEC58D0036B094 /* 1.png */; };
 		0E2BB2E51ECEE6DA0036B094 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2BB2E41ECEE6DA0036B094 /* 5.png */; };
 		0E2BB2E81ECEEBE80036B094 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2BB2E71ECEEBE80036B094 /* ImageCell.m */; };
+		0E3EC45E1ED7F2DC0036B709 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EC45D1ED7F2DC0036B709 /* Util.m */; };
 		0EB7EC5F1ECF08740000D824 /* YuriScrollImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7EC5E1ECF08740000D824 /* YuriScrollImage.m */; };
 		0EB7EC651ECF0D210000D824 /* pp5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB7EC601ECF0D210000D824 /* pp5.png */; };
 		0EB7EC661ECF0D210000D824 /* pp4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB7EC611ECF0D210000D824 /* pp4.png */; };
@@ -46,6 +47,8 @@
 		0E2BB2E41ECEE6DA0036B094 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		0E2BB2E61ECEEBE80036B094 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
 		0E2BB2E71ECEEBE80036B094 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		0E3EC45C1ED7F2DC0036B709 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		0E3EC45D1ED7F2DC0036B709 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		0EB7EC5D1ECF08740000D824 /* YuriScrollImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuriScrollImage.h; sourceTree = "<group>"; };
 		0EB7EC5E1ECF08740000D824 /* YuriScrollImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuriScrollImage.m; sourceTree = "<group>"; };
 		0EB7EC601ECF0D210000D824 /* pp5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp5.png; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				0E2BB2BF1ECE9BE10036B094 /* images */,
 				0E2BB2A81ECE90460036B094 /* AppDelegate.h */,
 				0E2BB2A91ECE90460036B094 /* AppDelegate.m */,
+				0E3EC45C1ED7F2DC0036B709 /* Util.h */,
+				0E3EC45D1ED7F2DC0036B709 /* Util.m */,
 				0E2BB2AB1ECE90460036B094 /* ViewController.h */,
 				0E2BB2AC1ECE90460036B094 /* ViewController.m */,
 				0EB7EC5D1ECF08740000D824 /* YuriScrollImage.h */,
@@ -218,6 +223,7 @@
 				0E2BB2AA1ECE90460036B094 /* AppDelegate.m in Sources */,
 				0E2BB2A71ECE90460036B094 /* main.m in Sources */,
 				0EB7EC5F1ECF08740000D824 /* YuriScrollImage.m in Sources */,
+				0E3EC45E1ED7F2DC0036B709 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
