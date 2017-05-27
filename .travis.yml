@@ -1,9 +1,8 @@
-language: objective-c #语言种类
-osx_image: xcode8.2
+language: objective-c
+osx_image: xcode7
+xcode_project: ScrollImage.xcodeproj
+xcode_scheme: ScrollImage
 
-#xcode_project: ScrollImage.xcodeproj # 项目文件相对于.travis.yml文件的路径
-#xcode_scheme: ScrollImage #你需要集成测试的scheme
-#xcode_sdk: iphonesimulator
-
-script: java -version
+script:
+- xctool -project ScrollImage.xcodeproj -scheme ScrollImage build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 
