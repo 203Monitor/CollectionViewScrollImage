@@ -1,3 +1,10 @@
 language: objective-c #语言种类
-xcode_project: ScrollImage.xcodeproj # 项目文件相对于.travis.yml文件的路径
-xcode_scheme: ScrollImage #你需要集成测试的scheme
+osx_image: xcode8.2
+
+#xcode_project: ScrollImage.xcodeproj # 项目文件相对于.travis.yml文件的路径
+#xcode_scheme: ScrollImage #你需要集成测试的scheme
+#xcode_sdk: iphonesimulator
+
+script:
+ - set -o pipefail && xcodebuild -project 'ScrollImage.xcodeproj' -scheme 'ScrollImage' -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=10.0,name=iPhone 6' clean test build | xcpretty -c
+#-UseSanitizedBuildSystemEnvironment=YES
