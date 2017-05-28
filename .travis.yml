@@ -1,9 +1,9 @@
 language: objective-c
 osx_image: xcode8
 xcode_project: ScrollImage.xcodeproj
-#xcode_scheme: ScrollImage
+xcode_scheme: ScrollImage
 
 script:
-- xctool -project ScrollImage.xcodeproj -scheme ScrollImage build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-
+#- xctool -project ScrollImage.xcodeproj -scheme ScrollImage build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+xcodebuild build
 #
