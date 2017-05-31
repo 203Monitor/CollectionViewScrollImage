@@ -5,8 +5,13 @@ xcode_scheme: ScrollImage
 
 script:
 #- xctool -project ScrollImage.xcodeproj -scheme ScrollImage build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-- xcodebuild -project ScrollImage.xcodeproj -target ScrollImage -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+#– xctool -workspace TravisExample.xcworkspace -scheme TravisExample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool -project ScrollImage.xcodeproj -scheme ScrollImage -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
-#- ls
+#- xcodebuild -project {project}.xcodeproj -target {target} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+#- xcodebuild -workspace {workspace}.xcworkspace -scheme {scheme} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+#- xcodebuild -project ScrollImage.xcodeproj -target ScrollImage -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
-#- xcodebuild -version && node --version && pwd
+
+
+#- xcodebuild -version && node --version && pwd && ls
